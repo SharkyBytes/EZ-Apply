@@ -1,0 +1,41 @@
+{
+    "name": "Autofill",
+    "description": "Autofill is a open source extension that allows you to fill in job forms with one click.",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "permissions": ["tabs", "activeTab", "scripting", "storage"],
+    "action": {
+        "default_title": "Click to show an alert"
+    },
+    "icons":{
+        "16": "img/logo.png",
+        "32": "img/logo.png",
+        "48": "img/logo.png",
+        "128": "img/logo.png"
+    },
+    "background": {
+        "service_worker": "js/background.bundle.js"
+    },
+    "content_scripts": [ {
+        "matches": [ "*://*/*" ],
+        "js": ["js/autofill.bundle.js", "js/companydata.bundle.js", "js/userdata.bundle.js", "js/popup.bundle.js", 
+        "js/jquery.min.js", "js/popper.min.js", "js/bootstrap.min.js"],
+        "css": ["css/popup.css"],
+        "run_at": "document_start"
+    },
+    {
+        "matches": [ "*://*/*" ],
+        "js": ["js/manager.bundle.js"],
+        "run_at": "document_end"
+    }],
+    "web_accessible_resources": [ {
+        "resources": [ "data/*", "index.html", "popup.html", "js/*", "css/*", "images/*" ],
+        "matches": [ "*://*/*" ]
+    } ],
+    "file_system_provider_capabilities": {
+        "configurable": true,
+        "watchable": false,
+        "multiple_mounts": true,
+        "source": "data"
+    }
+  }
