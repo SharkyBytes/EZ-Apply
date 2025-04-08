@@ -3,7 +3,7 @@
 EZ Apply is a Chrome extension designed to streamline the job application process. With just a few clicks, you can autofill your personal and job-specific information into over 75 job application forms. The extension eliminates the tedious task of manually entering the same data across multiple websites.
 
 ### Features:
-- **Autofill Text, Checkboxes, and Select Fields:** Automatically fill out various form fields with your saved information.
+- **Ez-Apply Text, Checkboxes, and Select Fields:** Automatically fill out various form fields with your saved information.
 - **Resume and Cover Letter Upload:** Upload your resume and cover letter to job applications on supported platforms.
 - **Privacy-Focused:** All information is securely stored locally on your Chrome browser. Your data is never shared or sent to external servers.
 - **Cross-Site Compatibility:** Works with over 75+ job application platforms, including popular ones like Greenhouse and Lever.
@@ -12,7 +12,7 @@ EZ Apply is a Chrome extension designed to streamline the job application proces
 ### How It Works:
 1. Install the **EZ Apply** extension from the Chrome Web Store.
 2. Create a profile by entering your personal and employment details.
-3. When you encounter a job application form, click the **EZ Apply** extension icon and hit "Autofill."
+3. When you encounter a job application form, click the **EZ Apply** extension icon and hit "Ez-Apply."
 4. Your data will be automatically filled in, leaving only job-specific fields for you to complete.
 
 Currently, **EZ Apply** works best with platforms like Greenhouse, Lever, and more are being added frequently.

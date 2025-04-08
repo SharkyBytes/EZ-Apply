@@ -1,11 +1,15 @@
 {
-    "name": "Autofill",
-    "description": "Autofill is a open source extension that allows you to fill in job forms with one click.",
+    "name": "Ez-Apply",
+    "description": "Ez-Apply is a open source extension that allows you to fill in job forms with one click.",
     "version": "0.0.1",
     "manifest_version": 3,
     "permissions": ["tabs", "activeTab", "scripting", "storage"],
     "action": {
-        "default_title": "Click to show an alert"
+        "default_title": "Ez-Apply - Autofill Job Applications",
+        "default_popup": "popup.html"
+    },
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'"
     },
     "icons":{
         "16": "img/logo.png",

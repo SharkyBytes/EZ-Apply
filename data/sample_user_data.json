@@ -1,0 +1,42 @@
+{
+  "name": "John Smith",
+  "email": "john.smith@example.com",
+  "phone": "555-123-4567",
+  "address": "123 Main St, New York, NY 10001",
+  "linkedin": "linkedin.com/in/johnsmith",
+  "github": "github.com/johnsmith",
+  "website": "johnsmith.dev",
+  "summary": "Experienced software developer with 5 years of experience in web development and cloud technologies.",
+  "skills": ["JavaScript", "React", "Node.js", "AWS", "Python", "Git"],
+  "work": "Software Engineer",
+  "educations": [
+    {
+      "school": "New York University",
+      "school_value": "12345",
+      "degreetype": "Bachelor's",
+      "major": "Computer Science",
+      "startdate": "2015",
+      "enddate": "2019"
+    }
+  ],
+  "experiences": [
+    {
+      "company": "Tech Solutions Inc.",
+      "title": "Senior Software Engineer",
+      "startdate": "2019",
+      "enddate": "Present"
+    },
+    {
+      "company": "Digital Innovations",
+      "title": "Software Developer",
+      "startdate": "2017",
+      "enddate": "2019"
+    }
+  ],
+  "citizenship": "US Citizen",
+  "work_authorization": "Authorized to work in the US",
+  "gender": "Male",
+  "race": "White",
+  "veteran": "No",
+  "disability": "No"
+} 
